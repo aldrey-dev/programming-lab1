@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+#pageContainer {
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#mainHeading {
+    color: #2d3748;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+#nameInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button-group {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 18px;
+    margin: 5px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3182ce;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #2b6cb0;
+}
+
+#messageArea {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f7fafc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2d3748;
+    min-height: 40px;
+}
+
+.student-info {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #718096;
+}
